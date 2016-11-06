@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Select_Conversion" 
+    android:orientation="vertical"
+    android:background="#FF9B61"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Select a Conversion"
+       android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:layout_marginBottom="25dp"
+         />
+
+    
+    <ListView 
+        android:id="@+id/listviewSC"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAlignment="center"
+        android:divider="#FF0000"
+		android:background="#776860"
+        ></ListView>
+
+        <ImageView 
+     	android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:src="@drawable/aaa"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        
+        />
+    
+    
+
+</LinearLayout>

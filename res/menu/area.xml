@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/area_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Refresh"/>
+
+        <item
+        android:id="@+id/area_more"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="More Conversions"/>
+    
+        <item
+        android:id="@+id/area_exit"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Exit"/>
+    
+    
+    
+</menu>
